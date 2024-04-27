@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSPDemo", "LSPDemo\LSPDemo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIPDemo", "DIPDemo\DIPDemo.csproj", "{8B3A33EC-D0FB-4770-8440-7E2CE17BD9EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrstedTest", "OrstedTest\OrstedTest.csproj", "{56D37AA7-CC73-4C49-B8EA-9CFBE7EE03B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrstedTest", "OrstedTest\OrstedTest.csproj", "{56D37AA7-CC73-4C49-B8EA-9CFBE7EE03B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single Responsibility Principle", "Single Responsibility Principle\Single Responsibility Principle.csproj", "{B4125C5F-AE49-46AC-B4A5-DE62D1094A14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{56D37AA7-CC73-4C49-B8EA-9CFBE7EE03B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56D37AA7-CC73-4C49-B8EA-9CFBE7EE03B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56D37AA7-CC73-4C49-B8EA-9CFBE7EE03B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4125C5F-AE49-46AC-B4A5-DE62D1094A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4125C5F-AE49-46AC-B4A5-DE62D1094A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4125C5F-AE49-46AC-B4A5-DE62D1094A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4125C5F-AE49-46AC-B4A5-DE62D1094A14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
