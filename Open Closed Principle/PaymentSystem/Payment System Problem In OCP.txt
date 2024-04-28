@@ -1,0 +1,2 @@
+﻿Payment System: Create a payment system that supports different types of payment methods (e.g., credit card, debit card, PayPal, etc.). 
+The system should be open for adding new types of payment methods without modifying the existing code.

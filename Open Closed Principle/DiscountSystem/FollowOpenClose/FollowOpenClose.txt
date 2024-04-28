@@ -1,0 +1,5 @@
+﻿The Discount abstract base class defines a method CalculateDiscount for calculating the discount amount.
+Concrete classes PercentageDiscount and FixedAmountDiscount inherit from Discount and provide specific 
+implementations for calculating discounts based on percentage and fixed amount, respectively.
+We can easily extend the discount system by creating new classes that inherit from Discount 
+and provide implementations for additional types of discounts (e.g., buy-one-get-one-free, tiered discounts).

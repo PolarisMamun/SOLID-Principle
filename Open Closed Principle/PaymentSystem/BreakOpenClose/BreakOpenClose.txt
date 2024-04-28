@@ -1,0 +1,12 @@
+﻿Violation of the Open/Closed Principle:
+By directly modifying the existing PaymentProcessor class to handle different types of payment methods, we violate the Open/Closed Principle. 
+If we want to add support for new types of payment methods in the future, we'll need to modify the PaymentProcessor class and potentially add 
+more payment processing logic.
+
+Code duplication:
+The logic for processing payments is duplicated within the PaymentProcessor class. If there are additional calculations or common functionalities,
+they would need to be duplicated across multiple methods of the class.
+
+Limited extensibility:
+Since we've directly modified the PaymentProcessor class to handle specific types of payment methods, adding support for additional types of 
+payment methods would require further modifications to the PaymentProcessor class, violating the Open/Closed Principle.

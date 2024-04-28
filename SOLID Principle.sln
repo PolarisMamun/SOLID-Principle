@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrstedTest", "OrstedTest\Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single Responsibility Principle", "Single Responsibility Principle\Single Responsibility Principle.csproj", "{B4125C5F-AE49-46AC-B4A5-DE62D1094A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open Closed Principle", "Open Closed Principle\Open Closed Principle.csproj", "{BB0DFBCA-524D-4F31-95E2-83BFCB892BB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B4125C5F-AE49-46AC-B4A5-DE62D1094A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4125C5F-AE49-46AC-B4A5-DE62D1094A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4125C5F-AE49-46AC-B4A5-DE62D1094A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0DFBCA-524D-4F31-95E2-83BFCB892BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0DFBCA-524D-4F31-95E2-83BFCB892BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0DFBCA-524D-4F31-95E2-83BFCB892BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0DFBCA-524D-4F31-95E2-83BFCB892BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

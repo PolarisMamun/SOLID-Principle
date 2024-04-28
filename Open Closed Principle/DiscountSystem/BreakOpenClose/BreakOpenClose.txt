@@ -1,0 +1,15 @@
+﻿
+Violation of the Open/Closed Principle:
+By directly modifying the existing code to handle different types of discounts, 
+we violate the Open/Closed Principle. If we want to add support for new types of discounts 
+in the future, we'll need to modify the Main method and potentially add more discount calculator classes.
+
+Code duplication:
+The logic for calculating discounts is duplicated within each discount calculator class. 
+If there are additional calculations or common functionalities, they would need to be duplicated across multiple
+classes.
+
+Limited extensibility:
+Since we've directly modified the Main method to instantiate specific discount calculator classes, 
+adding support for additional types of discounts would require further modifications to the Main method 
+and the addition of new calculator classes, violating the Open/Closed Principle.
