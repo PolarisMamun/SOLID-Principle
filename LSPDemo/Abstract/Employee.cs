@@ -11,10 +11,6 @@ namespace LSPDemo.Abstract
         public int ID { get; set; }
         public string Name { get; set; }
 
-        /*public int ID { get; set; }
-         public string Name { get; set; }
-        */
-
         public Employee()
         {
 
@@ -25,7 +21,6 @@ namespace LSPDemo.Abstract
             Name = name;
 
         }
-        //public abstract decimal CalculateBonus(decimal salary);
 
         public override string ToString()
         {

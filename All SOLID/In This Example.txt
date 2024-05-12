@@ -1,0 +1,5 @@
+﻿SRP: Each class (Product, ShippingService, ShoppingCart) has a clear responsibility.
+OCP: You can easily extend the system by adding new product types or shipping methods without modifying existing classes.
+LSP: Derived classes like Product and ShippingService can be used interchangeably with their base types (IProduct and IShippingService).
+ISP: Interfaces are tailored to the specific needs of classes that implement them (IProduct and IShippingService).
+DIP: High-level modules like ShoppingCart depend on abstractions (IProduct and IShippingService) rather than concrete implementations.
